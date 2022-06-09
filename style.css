@@ -33,9 +33,9 @@ p {
 
 /*The following is here to test styled, reactive links, but I don't actually like the effect, so in the next pass, I'll modify these */
 a:link    { color: black;  } 
-a:visited { color: darkslategray  }
-a:hover   { color: rgb(36, 70, 70); }
-a:active  { color: rgb(58, 21, 21);  }
+a:visited { color: rgb(26, 44, 44)  }
+a:hover   { color: rgb(23, 49, 49); }
+a:active  { color: rgb(34, 10, 10);  }
 
 
 .centered {
@@ -72,7 +72,7 @@ header h1 {
 }
 
 nav {
-  color: white;
+  color: black;
   font-family: Arial, sans-serif;
   font-size: 20px;
   text-align: center;
