@@ -32,10 +32,10 @@ p {
 }
 
 /*The following is here to test styled, reactive links, but I don't actually like the effect, so in the next pass, I'll modify these */
-a:link    { color: darkgray;  } 
-a:visited { color: gray;   }
-a:hover   { color: darkslategray; }
-a:active  { color: gray;  }
+a:link    { color: blue;  } 
+a:visited { color: green;   }
+a:hover   { color: red; }
+a:active  { color: pink;  }
 
 
 .centered {
