@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: rgb(156, 236, 155);
   font-family: "Work Sans Light", Tahoma, sans-serif; /*study how to get the right fonts to upload! */
 }
 
@@ -31,11 +31,11 @@ p {
   padding: 10px;
 }
 
-/*Making these much brighter to get contrast.  Fine a more elegant solution later.*/
-a:link    { color: blue;  } 
-a:visited { color: green;   }
-a:hover   { color: red; }
-a:active  { color: pink;  }
+/*The following is here to test styled, reactive links, but I don't actually like the effect, so in the next pass, I'll modify these */
+a:link    { color: black;  } 
+a:visited { color: darkslategray  }
+a:hover   { color: rgb(36, 70, 70); }
+a:active  { color: rgb(58, 21, 21);  }
 
 
 .centered {
@@ -58,12 +58,12 @@ a:active  { color: pink;  }
 }
 
 header {
-  background-color: black;
+  background-color: rgb(156, 236, 155);
 }
 
 header h1 {
   margin: 0;
-  color: white;
+  color: black;
    font-family: Arial, sans-serif;
   font-size:52px;
   text-align: center; 
@@ -80,8 +80,8 @@ nav {
 
 footer {
   margin: 0;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: rgb(156, 236, 155);
   font-family:  Arial, sans-serif;
   font-size:17px;
   text-align: center; 
