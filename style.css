@@ -1,19 +1,13 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: rgb(156, 236, 155);
+  background-color: black;
   font-family: "Work Sans Light", Tahoma, sans-serif; /*study how to get the right fonts to upload! */
 }
 
-/*lots of white space in the list for easy reading */
-ul {
-  font-size:17px;
-  line-height: 2;
-}
-
-ol {
-  font-size:17px;
-  line-height: 2;
+hr {
+  width: 75%;
+  margin-left: 0;
 }
 
 h2 {
@@ -29,14 +23,30 @@ h3 {
 p {
   line-height: 1.5;
   padding: 10px;
+  color: black;
 }
 
-/*The following is here to test styled, reactive links, but I don't actually like the effect, so in the next pass, I'll modify these */
-a:link    { color: black;  } 
-a:visited { color: rgb(26, 44, 44)  }
-a:hover   { color: rgb(23, 49, 49); }
-a:active  { color: rgb(34, 10, 10);  }
+ul {
+  font-size:17px;
+  line-height: 2;
+}
 
+ol {
+  font-size:17px;
+  line-height: 2;
+}
+
+/* Test for Nav */
+nav a:link { color: white; }
+nav a:visited { color: rgb(161, 156, 156) }
+nav a:hover { color: darkgray }
+nav a:target { color: darkgray }
+
+/* Test for Rest */
+a:link { color: black; }
+a:visited { color: rgb(77, 67, 67) }
+a:hover { color: darkgray }
+a:target { color: darkgray }
 
 .centered {
   display: block;
@@ -46,25 +56,34 @@ a:active  { color: rgb(34, 10, 10);  }
 }
 
 .left-block {
-  display:block;
-  width: 80%;
+  display:inline-block;
+  width: 75%;
   margin-right: auto;
 }
 
-.right-float{
+.right-block {
+  display:block;
+  width: 75%;
+  margin-left: auto;
+  text-align: right;
+}
+
+.right-float{  
   float: right;
-  max-height:300px;
-  width: auto;
+  height:auto;
+  width: 20%;
+  max-width: 300px;
+  margin-right: 50;
 }
 
 header {
-  background-color: rgb(156, 236, 155);
+  background-color: black;
 }
 
 header h1 {
   margin: 0;
-  color: black;
-   font-family: "Work Sans Light", Arial, sans-serif;
+  color: white;
+  font-family:  Arial, sans-serif;
   font-size:52px;
   text-align: center; 
   text-transform: uppercase;
@@ -72,17 +91,18 @@ header h1 {
 }
 
 nav {
-  color: black;
-  font-family: Arial, sans-serif;
+  color: white;
+  font-family: "Work Sans Light", Arial, sans-serif;
   font-size: 20px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 footer {
   margin: 0;
-  color: black;
-  background-color: rgb(156, 236, 155);
-  font-family:  Arial, sans-serif;
+  color: white;
+  background-color: black;
+  font-family:  "Work Sans Light", Arial, sans-serif;
   font-size:17px;
   text-align: center; 
   text-transform: uppercase;
