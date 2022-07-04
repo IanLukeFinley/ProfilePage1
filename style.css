@@ -5,7 +5,10 @@ html, body {
   font-family: "Work Sans Light", Tahoma, sans-serif; /*study how to get the right fonts to upload! */
 }
 
-
+hr {
+  width: 75%;
+  margin-left: 0;
+}
 
 h2 {
   text-align: center;
@@ -68,8 +71,9 @@ a:target { color: darkgray }
 .right-float{  
   float: right;
   height:auto;
-  width: 15%;
+  width: 20%;
   max-width: 300px;
+  margin-right: 50;
 }
 
 header {
