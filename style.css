@@ -5,19 +5,8 @@ html, body {
   font-family: "Work Sans Light", Tahoma, sans-serif; /*study how to get the right fonts to upload! */
 }
 
-hr {
-  width: 75%;
-  margin-left: 0;
-}
-
-h2 {
+h2, h3 {
   text-align: center;
-  color: black;
-}
-
-h3 {
-  text-align: center;
-  color: black;
 }
 
 p {
@@ -43,38 +32,11 @@ nav a:hover { color: darkgray }
 nav a:target { color: darkgray }
 
 /* Test for Rest */
-a:link { color: black; }
+a:link { color: slateblue; }
 a:visited { color: rgb(77, 67, 67) }
-a:hover { color: darkgray }
-a:target { color: darkgray }
+a:hover { color: black }
+a:target { color: black }
 
-.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.left-block {
-  display:inline-block;
-  width: 75%;
-  margin-right: auto;
-}
-
-.right-block {
-  display:block;
-  width: 75%;
-  margin-left: auto;
-  text-align: right;
-}
-
-.right-float{  
-  float: right;
-  height:auto;
-  width: 20%;
-  max-width: 300px;
-  margin-right: 50;
-}
 
 header {
   background-color: black;
@@ -115,4 +77,10 @@ background-color: white;
 width: 80%;
 margin: auto;
 padding: 20px;
+}
+
+.bullseye {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

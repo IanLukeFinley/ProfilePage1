@@ -2,13 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Ian Luke Finley</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Ian Luke Finley | Home</title>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       rel="stylesheet"
       type="text/css"
     />
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+  />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -26,20 +32,21 @@
       </nav>
     </header>
 
-    <main class="wrapper">
+    <main class="wrapper container">
       <div>
         <!-- eventually, big picture goes here -->
       </div>
 
-      <div>
-        <img src="images/smile.jpg" alt="Ian Finley" class="right-float" />
-        <article class="left-block">
+      <div class="row">
+        <div class="col-md-9 col-sm-12 border-bottom pt-5">
+        <article>
           <h2>Who I Am</h2>
-          <h3>A clear voice in software development</h3>
+          <h3>Experienced educator, enthusiastic developer</h3>
           <p>
             After working as an arts educator in Raleigh, NC for 18 years, I'm
             returning to one of my first passions: programming and software
-            development. From the text-adventures I wrote in college to the sophsticated products in my portfolio, my projects all demonstrate:
+            development. From the text adventures I wrote in college to the sophsticated projects 
+            in my portfolio, my work all demonstrates:
           </p>
           <ul>
             <li>Clear and elegant code</li>
@@ -48,30 +55,34 @@
             <li>Highly efficient project turnaround</li>
           </ul>
         </article>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img src="images/smile.jpg" alt="Ian Finley" width="100%" />
+        </div>
       </div>
-
-      <hr /> 
-
-      <div class="left-block">
+      
+      <div class="row">
+      <div class="col-md-9 border-bottom pt-5">
         <article>
           <h2>What I Do</h2>
           <p>
-            Full-stack web developer, gaining certifications through Thinkful. Current certifications include:
+            Full-stack web developer, gaining experience through Thinkful. Current training includes:
           </p>
           <ul>
+            <li>React</li>
+            <li>NodeJS</li>
             <li>Javascript</li>
             <li>HTML5</li>
             <li>CSS3</li>
-            <li>React</li>
           </ul>
           <!-- Expand this -->
         </article>
       </div>
-
-      <hr /> 
-
-      <div>
-        <article id="contact" class="left-block">
+      </div>
+      
+      <div class="row">
+      <div class="col-md-9 col-sm-12 border-bottom pt-5">
+        <article id="contact" >
           <h2>Contact</h2>
           <ul>
             <li>
@@ -92,16 +103,18 @@
             </li>
           </ul>
         </article>
+        </div>
+        <div class="col-md-3 col-sm-12">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51757.292087156195!2d-78.6148245477295!3d35.828627936102535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1654810144452!5m2!1sen!2sus"
-            width="400"
-            height="300"
+            width="100%"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            class="right-float";
+            referrerpolicy="no-referrer-when-downgrade";
           ></iframe>
+        </div>
+      </div>
       </div>
     </main>
 
