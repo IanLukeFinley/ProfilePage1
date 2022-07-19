@@ -1,11 +1,13 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   background-color: black;
-  font-family: "Work Sans Light", Tahoma, sans-serif; /*study how to get the right fonts to upload! */
+  font-family: "Work Sans Light", Tahoma, sans-serif;
 }
 
-h2, h3 {
+h2,
+h3 {
   text-align: center;
 }
 
@@ -13,30 +15,32 @@ p {
   line-height: 1.5;
   padding: 10px;
   color: black;
+  font-size: larger;
 }
 
 ul {
-  font-size:17px;
+  font-size: larger;
   line-height: 2;
 }
 
 ol {
-  font-size:17px;
+  font-size: larger;
   line-height: 2;
 }
 
 /* Test for Nav */
-nav a:link { color: white; }
-nav a:visited { color: rgb(161, 156, 156) }
-nav a:hover { color: darkgray }
-nav a:target { color: darkgray }
-
-/* Test for Rest */
-a:link { color: slateblue; }
-a:visited { color: rgb(77, 67, 67) }
-a:hover { color: black }
-a:target { color: black }
-
+nav a:link {
+  color: white;
+}
+nav a:visited {
+  color: rgb(161, 156, 156);
+}
+nav a:hover {
+  color: darkgray;
+}
+nav a:target {
+  color: darkgray;
+}
 
 header {
   background-color: black;
@@ -45,9 +49,9 @@ header {
 header h1 {
   margin: 0;
   color: white;
-  font-family:  Arial, sans-serif;
-  font-size:52px;
-  text-align: center; 
+  font-family: Arial, sans-serif;
+  font-size: 52px;
+  text-align: center;
   text-transform: uppercase;
   padding: 60px 0 20px 20px;
 }
@@ -64,23 +68,17 @@ footer {
   margin: 0;
   color: white;
   background-color: black;
-  font-family:  "Work Sans Light", Arial, sans-serif;
-  font-size:17px;
-  text-align: center; 
+  font-family: "Work Sans Light", Arial, sans-serif;
+  font-size: 17px;
+  text-align: center;
   text-transform: uppercase;
   padding: 60px 0 20px 20px;
 }
 
 /*constrain the content to the middle of the page, give us a nice border*/
 .wrapper {
-background-color: white;
-width: 80%;
-margin: auto;
-padding: 20px;
-}
-
-.bullseye {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
 }
