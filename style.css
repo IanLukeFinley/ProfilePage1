@@ -12,6 +12,10 @@ h3 {
   padding: 15px;
 }
 
+a {
+  font-size: larger;
+}
+
 p {
   line-height: 2.5;
   padding: 10px;
